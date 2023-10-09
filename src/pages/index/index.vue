@@ -12,6 +12,8 @@ function goTest() {
 
 <template>
   <view class="content">
+    <van-button type="primary">主要按钮</van-button>
+    <van-button type="success">成功按钮</van-button>
     <image class="logo" src="/static/logo.png" />
     <view class="text-area">
       <text class="title">{{ title }}</text>
